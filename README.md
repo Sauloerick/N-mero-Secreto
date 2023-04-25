@@ -1,6 +1,6 @@
 # Jogo Número Secreto
 
-Jogo de adivinhação numérico com reconhecimento de voz
+Jogo de adivinhação numérico com reconhecimento de voz.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
