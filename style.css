@@ -3,7 +3,9 @@
 :root {
     --font-family: 'Bruno Ace', cursive;
     --bg-color: #2A0944;
+    --bg-color2: #2C061F;
     --primary-color: #FEC260;
+    --second-color: #D89216;
 }
 
 body{
@@ -30,6 +32,16 @@ h2{
 h3{
     font-size: 2em;
     margin-top: 20px;
+}
+
+p{
+    font-size: 12px;
+    margin-top: 150px;
+    display: none;
+}
+
+.show{
+    display: block;
 }
 
 .mensagem{
@@ -60,5 +72,28 @@ h3{
 .btn-jogar:hover{
     color: var(--bg-color);
     background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.game-over{
+    background-color: var(--bg-color2);
+    color: var(--second-color);
+}
+
+.btn-game-over{
+    font-family: var(--font-family);
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--second-color);
+    padding: 8px 15px;
+    border: 2px solid var(--second-color);
+    background: var(--bg-color2);
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.btn-game-over:hover{
+    color: var(--bg-color2);
+    background-color: var(--second-color);
     cursor: pointer;
 }
